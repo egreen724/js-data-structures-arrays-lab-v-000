@@ -23,5 +23,9 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-  return newDrivcers = [name, ...drivers]
+  return newDrivers = [name, ...drivers]
+}
+
+function removeLastDriver(){
+  return newDrivers = drivers.slice(-1)
 }
